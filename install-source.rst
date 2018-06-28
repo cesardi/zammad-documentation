@@ -27,7 +27,10 @@ You can directly download Zammad from https://ftp.zammad.com/ or use the direct 
 Please note that a working ruby 2.4.2 environment is needed.
 
 ::
+On freebsd install devel/gmake first!!!
 
+ zammad@shell> export MAKE="gmake"
+ 
  zammad@shell> gem install bundler rake rails
 
 For PostgreSQL (note, the option says "without ... mysql")
